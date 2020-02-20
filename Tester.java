@@ -7,11 +7,13 @@ import java.util.List;
 public class Tester {
 
     public static void main(String[] args) {
-    	testDivision();
-    	testFunWithStrings();
-        testZipper();
+    	//testDivision();
+    	//testFunWithStrings();
+        //testZipper();
     }
 
+    //uncomment for testing Division
+    /* 
     public static void testDivision() {
         Division set = new Division(new double[]{1,2,3,0,4,5,0,6,0,7,8,9,0});
         set.removeZeroes();
@@ -20,7 +22,10 @@ public class Tester {
         System.out.println("Received  " + set + "\n");
         
     }
+    */
 
+    //uncomment for testing FunWithStrings
+    /*
     public static void testFunWithStrings() {
     	List<String> list1 = new ArrayList<String>(Arrays.asList("to", "cellphone", "truck", "fire"));
     	List<String> list2 = new ArrayList<String>(Arrays.asList("delicious", "copper", "blue", "red"));
@@ -28,10 +33,14 @@ public class Tester {
         System.out.println("Expecting [to, delicious, truck, fire] [cellphone, copper, blue, red]");
         System.out.println("Received  " + list1 + " " + list2 + "\n");
     }
-
+    */
+    
+    //uncomment for testing Zipper
+    /*
     public static void testZipper() {
         int ret[] = Zipper.zip(new int[]{1, 2, 3, 4}, new int[]{5, 6, 7, 8});
         System.out.println("Expecting [1, 5, 2, 6, 3, 7, 4, 8]");
         System.out.println("Received  " + Arrays.toString(ret));
     }
+    */
 }
